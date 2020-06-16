@@ -2,18 +2,217 @@
 <html>
 
 <head>
-  <h1 style="font-size:60px; color:green; text-align: center;">ARK Survival Evolved: Code Checker</h1>
+  <h1 style="font-size:60px; color:green; text-align: center; border-style: solid; border-width: 6px; border-color: black;">ARK Survival Evolved: Code Checker</h1>
 </head>
 
 <body>
+
+  <div class="directory">
+    <h2 style="padding-left: 12px;">Directory</h2>
+    <ul style=list-style-type:square>
+        <li style="padding: 6px";><a href="#about">About</a></li>
+        <li style="padding: 6px";><a href="#howtouse">How To Use</a></li>
+        <li style="padding: 6px";><a href="ARK CODE CHECKER.html">Color Code Creator</a></li>
+        <li style="padding: 6px; padding-bottom: 12px;"><a href="#codechecker">Color Code Checker</a></li>
+    </ul>
+  </div>
+
+<style>
+  .directory {
+    border-style:dashed;
+    list-style-type:square;
+  }
+  .codecreator {
+    border-style:double;
+  }
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-items: right;
+  }
+
+</style>
+
+<div class="codecreator">
   <ul>
 
-    <li style="font-size:20px; color:black;">Choose A Dinosaur</li>
+    <li style="font-size:20px; color:black;">Choose A Creature</li>
       <form>
           <div>
-              <input name="Dino" list="dinosaurs" placeholder="Dinosaur">
-              <datalist id="dinosaurs">
-                  <option value="Afghanistan">
+              <input name="creature" list="creatures" placeholder="Select A Creature" id=creature>
+              <datalist id="creatures">
+                  <option value="Abberant Anglerfish">
+                  <option value="Abberant Ankylosaurus">
+                  <option value="Aberrant Baryonyx">
+                  <option value="Aberrant Beelzebufo">
+                  <option value="Aberrant Carbonemys">
+                  <option value="Aberrant Carnotaurus">
+                  <option value="Aberrant Dimetrodon">
+                  <option value="Aberrant Dimorphodon">
+                  <option value="Aberrant Diplocaulus">
+                  <option value="Aberrant Diplodocus">
+                  <option value="Aberrant Dire Bear">
+                  <option value="Aberrant Dodo">
+                  <option value="Aberrant Doedicurus">
+                  <option value="Aberrant Electrophorus">
+                  <option value="Aberrant Equus">
+                  <option value="Aberrant Gigantopithecus">
+                  <option value="Aberrant Iguanodon">
+                  <option value="Aberrant Lystrosaurus">
+                  <option value="Aberrant Manta">
+                  <option value="Aberrant Megalania">
+                  <option value="Aberrant Megalosaurus">
+                  <option value="Aberrant Moschops">
+                  <option value="Aberrant Otter">
+                  <option value="Aberrant Ovis">
+                  <option value="Aberrant Paraceratherium">
+                  <option value="Aberrant Parasaur">
+                  <option value="Aberrant Purlovia">
+                  <option value="Aberrant Raptor">
+                  <option value="Aberrant Sarco">
+                  <option value="Aberrant Spino">
+                  <option value="Aberrant Stegosaurus">
+                  <option value="Aberrant Triceratops">
+                  <option value="Allosaurus">
+                  <option value="Anglerfish">
+                  <option value="Ankylosaurus">
+                  <option value="Archaeopteryx">
+                  <option value="Argentavis">
+                  <option value="Baryonyx">
+                  <option value="Basilosaurus">
+                  <option value="Beelzebufo">
+                  <option value="Blood Crystal Wyvern">
+                  <option value="Bloodstalker">
+                  <option value="Brontosaurus">
+                  <option value="Bulbdog">
+                  <option value="Carbonemys">
+                  <option value="Carnotaurus">
+                  <option value="Castoroides">
+                  <option value="Chalicotherium">
+                  <option value="Compy">
+                  <option value="Crystal Wyvern">
+                  <option value="Daeodon">
+                  <option value="Deinonychus">
+                  <option value="Dilophosaur">
+                  <option value="Dimetrodon">
+                  <option value="Dimorphodon">
+                  <option value="Diplocaulus">
+                  <option value="Diplodocus">
+                  <option value="Dire Bear">
+                  <option value="Dire Polar Bear">
+                  <option value="Direwolf">
+                  <option value="Dodo">
+                  <option value="Doedicurus">
+                  <option value="Dunkleosteus">
+                  <option value="Electrophorus">
+                  <option value="Ember Crystal Wyvern">
+                  <option value="Equus">
+                  <option value="Featherlight">
+                  <option value="Ferox">
+                  <option value="Gacha">
+                  <option value="Gallimimus">
+                  <option value="Gasbags">
+                  <option value="Giganotosaurus">
+                  <option value="Gigantopithecus">
+                  <option value="Glowtail">
+                  <option value="Hesperonis">
+                  <option value="Hyaenodon">
+                  <option value="Icthyornis">
+                  <option value="Icthyosaurus">
+                  <option value="Iguanodon">
+                  <option value="Jerboa">
+                  <option value="Kairuku">
+                  <option value="Kaprosuchus">
+                  <option value="Kentrosaurus">
+                  <option value="Lystrosaurus">
+                  <option value="Magmasaur">
+                  <option value="Mammoth">
+                  <option value="Managarmr">
+                  <option value="Manta">
+                  <option value="Megachelon">
+                  <option value="Megalania">
+                  <option value="Megaloceros">
+                  <option value="Megalodon">
+                  <option value="Megalosaurus">
+                  <option value="Megatherium">
+                  <option value="Mesopithecus">
+                  <option value="Microraptor">
+                  <option value="Morellatops">
+                  <option value="Mosasaurus">
+                  <option value="Moschops">
+                  <option value="Otter">
+                  <option value="Oviraptor">
+                  <option value="Ovis">
+                  <option value="Pachy (Pachycephalosaurus)">
+                  <option value="Pachyrhinosaurus">
+                  <option value="Paraceratherium">
+                  <option value="Parasaur">
+                  <option value="Pegomastax">
+                  <option value="Pelagornis">
+                  <option value="Phlomia">
+                  <option value="Plesiosaur">
+                  <option value="Procoptodon">
+                  <option value="Pteranodon">
+                  <option value="Purlovia">
+                  <option value="Quetzal">
+                  <option value="Raptor">
+                  <option value="Ravager">
+                  <option value="Reaper King">
+                  <option value="Rex">
+                  <option value="Roll Rat">
+                  <option value="Sabertooth">
+                  <option value="Sarco (Sarcosuchus)">
+                  <option value="Shinehorn">
+                  <option value="Snow Owl">
+                  <option value="Spino">
+                  <option value="Stegosaurus">
+                  <option value="Tapejara">
+                  <option value="Tek Parasaur">
+                  <option value="Tek Quetzal">
+                  <option value="Tek Raptor">
+                  <option value="Tek Rex">
+                  <option value="Tek Stegosaurus">
+                  <option value="Tek Triceratops">
+                  <option value="Terror Bird">
+                  <option value="Therizinosaur">
+                  <option value="Thorny Dragon">
+                  <option value="Thylacoleo">
+                  <option value="Triceratops">
+                  <option value="Troodon">
+                  <option value="Tropeognathus">
+                  <option value="Tropical Crystal Wyvern">
+                  <option value="Tusoteuthis">
+                  <option value="Unicorn">
+                  <option value="Velonasaur">
+                  <option value="Vulture">
+                  <option value="Woolly Rhino">
+                  <option value="X-Allosaurus">
+                  <option value="X-Ankylosaurus">
+                  <option value="X-Argentavis">
+                  <option value="X-Basilosaurus">
+                  <option value="X-Dunkleosteus">
+                  <option value="X-Icthyosaurus">
+                  <option value="X-Megalodon">
+                  <option value="X-Mosasaurus">
+                  <option value="X-Otter">
+                  <option value="X-Paraceratherium">
+                  <option value="X-Parasaur">
+                  <option value="X-Raptor">
+                  <option value="X-Rex">
+                  <option value="X-Sabertooth">
+                  <option value="X-Spino">
+                  <option value="X-Tapejara">
+                  <option value="X-Triceratops">
+                  <option value="X-Woolly Rhino">
+                  <option value="X-Yutyrannus">
+                  <option value="Yutyrannus">
+
               </datalist>
           </div>
       </form>
@@ -21,65 +220,715 @@
     <li style="font-size:20px; color:black;">Select A Color - Region 0</li>
       <form>
           <div>
-              <input name="0" list="colors0" placeholder="Region - 0">
-              <datalist id="colors0">
-                  <option value="Afghanistan">
-              </datalist>
+              <input name="colorid" type="number" id="region0" placeholder="Color ID" minlength="3" maxlength="3">
           </div>
       </form>
 
     <li style="font-size:20px; color:black;">Select A Color - Region 1</li>
       <form>
           <div>
-              <input name="1" list="colors1" placeholder="Region - 1">
-              <datalist id="colors1">
-                  <option value="Afghanistan">
-              </datalist>
+              <input name="colorid" type="number" id="region1" placeholder="Color ID" minlength="3" maxlength="3">
           </div>
       </form>
 
     <li style="font-size:20px; color:black;">Select A Color - Region 2</li>
       <form>
           <div>
-              <input name="2" list="colors2" placeholder="Region - 2">
-              <datalist id="colors2">
-                  <option value="Afghanistan">
-              </datalist>
+              <input name="colorid" type="number" id="region2" placeholder="Color ID" minlength="3" maxlength="3">
           </div>
       </form>
 
     <li style="font-size:20px; color:black;">Select A Color - Region 3</li>
       <form>
           <div>
-              <input name="3" list="colors3" placeholder="Region - 3">
-              <datalist id="colors3">
-                  <option value="Afghanistan">
-              </datalist>
+              <input name="colorid" type="number" id="region3" placeholder="Color ID" minlength="3" maxlength="3">
           </div>
       </form>
 
     <li style="font-size:20px; color:black;">Select A Color - Region 4</li>
       <form>
           <div>
-            <input name="4" list="colors4" placeholder="Region - 4">
-            <datalist id="colors4">
-                <option value="Afghanistan">
-            </datalist>
+              <input name="colorid" type="number" id="region4" placeholder="Color ID" minlength="3" maxlength="3">
           </div>
       </form>
 
     <li style="font-size:20px; color:black;">Select A Color - Region 5</li>
       <form>
           <div>
-            <input name="5" list="colors5" placeholder="Region - 5">
-            <datalist id="colors5">
-                <option value="Afghanistan">
-            </datalist>
+              <input name="colorid" type="number" id="region5" placeholder="Color ID" minlength="3" maxlength="3">
           </div>
-      </form>  
+      </form>
+
+    <li style="font-size:20px; color:black;">Choose A Hyphenation Option</li>
+      <form>
+          <div>
+              <input name="hyphenation" list="hyphenOptions" placeholder="Choose An Option" id=hyphen>
+              <datalist id="hyphenOptions">
+                  <option value=" - ">
+                  <option value=" : ">
+                  <option value=" ; ">
+                  <option value=" * ">
+                  <option value=" ^ ">
+                  <option value=" / ">
+                  <option value=" \ ">
+              </datalist>
+          </div>
+      </form>
+
+
+    <form> <input type="button" value="Submit" onClick="pr()"> </form>
 
   </ul>
+</div>
 </body>
+
+<p id="space"></p>
+
+ <font size="6"> Code: <span id="code"> </span> </font>
+
+<script>
+var space = " ";
+function pr() {
+  document.getElementById("code").innerHTML = document.getElementById('creature').value + document.getElementById('hyphen').value + document.getElementById('region0').value + document.getElementById('region1').value + document.getElementById('region2').value + document.getElementById('region3').value + document.getElementById('region4').value + document.getElementById('region5').value;
+      }
+</script>
+<table class="wikitable sortable jquery-tablesorter">
+
+<thead><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">ID</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Description</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Hex Code
+</th></tr></thead><tbody>
+<tr>
+<td>1</td>
+<td>Red</td>
+<td style="background-color:#ff0000; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff0000</tt>
+</td></tr>
+<tr>
+<td>2</td>
+<td>Blue</td>
+<td style="background-color:#0000ff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#0000ff</tt>
+</td></tr>
+<tr>
+<td>3</td>
+<td>Green</td>
+<td style="background-color:#00ff00; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#00ff00</tt>
+</td></tr>
+<tr>
+<td>4</td>
+<td>Yellow</td>
+<td style="background-color:#ffff00; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffff00</tt>
+</td></tr>
+<tr>
+<td>5</td>
+<td>Cyan</td>
+<td style="background-color:#00ffff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#00ffff</tt>
+</td></tr>
+<tr>
+<td>6</td>
+<td>Magenta</td>
+<td style="background-color:#ff00ff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff00ff</tt>
+</td></tr>
+<tr>
+<td>7</td>
+<td>Light Green</td>
+<td style="background-color:#c0ffba; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#c0ffba</tt>
+</td></tr>
+<tr>
+<td>8</td>
+<td>Light Grey</td>
+<td style="background-color:#c8caca; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#c8caca</tt>
+</td></tr>
+<tr>
+<td>9</td>
+<td>Light Brown</td>
+<td style="background-color:#786759; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#786759</tt>
+</td></tr>
+<tr>
+<td>10</td>
+<td>Light Orange</td>
+<td style="background-color:#ffb46c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffb46c</tt>
+</td></tr>
+<tr>
+<td>11</td>
+<td>Light Yellow</td>
+<td style="background-color:#fffa8a; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#fffa8a</tt>
+</td></tr>
+<tr>
+<td>12</td>
+<td>Light Red</td>
+<td style="background-color:#ff756c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff756c</tt>
+</td></tr>
+<tr>
+<td>13</td>
+<td>Dark Grey</td>
+<td style="background-color:#7b7b7b; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#7b7b7b</tt>
+</td></tr>
+<tr>
+<td>14</td>
+<td>Black</td>
+<td style="background-color:#3b3b3b; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#3b3b3b</tt>
+</td></tr>
+<tr>
+<td>15</td>
+<td>Brown</td>
+<td style="background-color:#593a2a; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#593a2a</tt>
+</td></tr>
+<tr>
+<td>16</td>
+<td>Dark Green</td>
+<td style="background-color:#224900; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#224900</tt>
+</td></tr>
+<tr>
+<td>17</td>
+<td>Dark Red</td>
+<td style="background-color:#812118; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#812118</tt>
+</td></tr>
+<tr>
+<td>18</td>
+<td>White</td>
+<td style="background-color:#ffffff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffffff</tt>
+</td></tr>
+<tr>
+<td>19</td>
+<td>Dino Light Red</td>
+<td style="background-color:#ffa8a8; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffa8a8</tt>
+</td></tr>
+<tr>
+<td>20</td>
+<td>Dino Dark Red</td>
+<td style="background-color:#592b2b; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#592b2b</tt>
+</td></tr>
+<tr>
+<td>21</td>
+<td>Dino Light Orange</td>
+<td style="background-color:#ffb694; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffb694</tt>
+</td></tr>
+<tr>
+<td>22</td>
+<td>Dino Dark Orange</td>
+<td style="background-color:#88532f; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#88532f</tt>
+</td></tr>
+<tr>
+<td>23</td>
+<td>Dino Light Yellow</td>
+<td style="background-color:#cacaa0; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#cacaa0</tt>
+</td></tr>
+<tr>
+<td>24</td>
+<td>Dino Dark Yellow</td>
+<td style="background-color:#94946c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#94946c</tt>
+</td></tr>
+<tr>
+<td>25</td>
+<td>Dino Light Green</td>
+<td style="background-color:#e0ffe0; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#e0ffe0</tt>
+</td></tr>
+<tr>
+<td>26</td>
+<td>Dino Medium Green</td>
+<td style="background-color:#799479; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#799479</tt>
+</td></tr>
+<tr>
+<td>27</td>
+<td>Dino Dark Green</td>
+<td style="background-color:#224122; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#224122</tt>
+</td></tr>
+<tr>
+<td>28</td>
+<td>Dino Light Blue</td>
+<td style="background-color:#d9e0ff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#d9e0ff</tt>
+</td></tr>
+<tr>
+<td>29</td>
+<td>Dino Dark Blue</td>
+<td style="background-color:#394263; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#394263</tt>
+</td></tr>
+<tr>
+<td>30</td>
+<td>Dino Light Purple</td>
+<td style="background-color:#e4d9ff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#e4d9ff</tt>
+</td></tr>
+<tr>
+<td>31</td>
+<td>Dino Dark Purple</td>
+<td style="background-color:#403459; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#403459</tt>
+</td></tr>
+<tr>
+<td>32</td>
+<td>Dino Light Brown</td>
+<td style="background-color:#ffe0ba; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffe0ba</tt>
+</td></tr>
+<tr>
+<td>33</td>
+<td>Dino Medium Brown</td>
+<td style="background-color:#948575; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#948575</tt>
+</td></tr>
+<tr>
+<td>34</td>
+<td>Dino Dark Brown</td>
+<td style="background-color:#594e41; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#594e41</tt>
+</td></tr>
+<tr>
+<td>35</td>
+<td>Dino Darker Grey</td>
+<td style="background-color:#595959; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#595959</tt>
+</td></tr>
+<tr>
+<td>36</td>
+<td>Dino Albino</td>
+<td style="background-color:#ffffff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffffff</tt>
+</td></tr>
+<tr>
+<td>37</td>
+<td>BigFoot0</td>
+<td style="background-color:#b79683; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#b79683</tt>
+</td></tr>
+<tr>
+<td>38</td>
+<td>BigFoot4</td>
+<td style="background-color:#eadad5; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#eadad5</tt>
+</td></tr>
+<tr>
+<td>39</td>
+<td>BigFoot5</td>
+<td style="background-color:#d0a794; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#d0a794</tt>
+</td></tr>
+<tr>
+<td>40</td>
+<td>WolfFur</td>
+<td style="background-color:#c3b39f; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#c3b39f</tt>
+</td></tr>
+<tr>
+<td>41</td>
+<td>DarkWolfFur</td>
+<td style="background-color:#887666; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#887666</tt>
+</td></tr>
+<tr>
+<td>42</td>
+<td>DragonBase0</td>
+<td style="background-color:#a0664b; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#a0664b</tt>
+</td></tr>
+<tr>
+<td>43</td>
+<td>DragonBase1</td>
+<td style="background-color:#cb7956; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#cb7956</tt>
+</td></tr>
+<tr>
+<td>44</td>
+<td>DragonFire</td>
+<td style="background-color:#bc4f00; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#bc4f00</tt>
+</td></tr>
+<tr>
+<td>45</td>
+<td>DragonGreen0</td>
+<td style="background-color:#79846c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#79846c</tt>
+</td></tr>
+<tr>
+<td>46</td>
+<td>DragonGreen1</td>
+<td style="background-color:#909c79; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#909c79</tt>
+</td></tr>
+<tr>
+<td>47</td>
+<td>DragonGreen2</td>
+<td style="background-color:#a5a48b; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#a5a48b</tt>
+</td></tr>
+<tr>
+<td>48</td>
+<td>DragonGreen3</td>
+<td style="background-color:#74939c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#74939c</tt>
+</td></tr>
+<tr>
+<td>49</td>
+<td>WyvernPurple0</td>
+<td style="background-color:#787496; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#787496</tt>
+</td></tr>
+<tr>
+<td>50</td>
+<td>WyvernPurple1</td>
+<td style="background-color:#b0a2c0; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#b0a2c0</tt>
+</td></tr>
+<tr>
+<td>51</td>
+<td>WyvernBlue0</td>
+<td style="background-color:#6281a7; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#6281a7</tt>
+</td></tr>
+<tr>
+<td>52</td>
+<td>WyvernBlue1</td>
+<td style="background-color:#485c75; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#485c75</tt>
+</td></tr>
+<tr>
+<td>53</td>
+<td>Dino Medium Blue</td>
+<td style="background-color:#5fa4ea; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#5fa4ea</tt>
+</td></tr>
+<tr>
+<td>54</td>
+<td>Dino Deep Blue</td>
+<td style="background-color:#4568d4; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#4568d4</tt>
+</td></tr>
+<tr>
+<td>55</td>
+<td>NearWhite</td>
+<td style="background-color:#ededed; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ededed</tt>
+</td></tr>
+<tr>
+<td>56</td>
+<td>NearBlack</td>
+<td style="background-color:#515151; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#515151</tt>
+</td></tr>
+<tr>
+<td>57</td>
+<td>DarkTurquoise</td>
+<td style="background-color:#184546; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#184546</tt>
+</td></tr>
+<tr>
+<td>58</td>
+<td>MediumTurquoise</td>
+<td style="background-color:#007060; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#007060</tt>
+</td></tr>
+<tr>
+<td>59</td>
+<td>Turquoise</td>
+<td style="background-color:#00c5ab; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#00c5ab</tt>
+</td></tr>
+<tr>
+<td>60</td>
+<td>GreenSlate</td>
+<td style="background-color:#40594c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#40594c</tt>
+</td></tr>
+<tr>
+<td>61</td>
+<td>Sage</td>
+<td style="background-color:#3e4f40; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#3e4f40</tt>
+</td></tr>
+<tr>
+<td>62</td>
+<td>DarkWarmGray</td>
+<td style="background-color:#3b3938; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#3b3938</tt>
+</td></tr>
+<tr>
+<td>63</td>
+<td>MediumWarmGray</td>
+<td style="background-color:#585554; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#585554</tt>
+</td></tr>
+<tr>
+<td>64</td>
+<td>LightWarmGray</td>
+<td style="background-color:#9b9290; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#9b9290</tt>
+</td></tr>
+<tr>
+<td>65</td>
+<td>DarkCement</td>
+<td style="background-color:#525b56; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#525b56</tt>
+</td></tr>
+<tr>
+<td>66</td>
+<td>LightCement</td>
+<td style="background-color:#8aa196; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#8aa196</tt>
+</td></tr>
+<tr>
+<td>67</td>
+<td>LightPink</td>
+<td style="background-color:#e8b0ff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#e8b0ff</tt>
+</td></tr>
+<tr>
+<td>68</td>
+<td>DeepPink</td>
+<td style="background-color:#ff119a; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff119a</tt>
+</td></tr>
+<tr>
+<td>69</td>
+<td>DarkViolet</td>
+<td style="background-color:#730046; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#730046</tt>
+</td></tr>
+<tr>
+<td>70</td>
+<td>DarkMagenta</td>
+<td style="background-color:#b70042; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#b70042</tt>
+</td></tr>
+<tr>
+<td>71</td>
+<td>BurntSienna</td>
+<td style="background-color:#7e331e; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#7e331e</tt>
+</td></tr>
+<tr>
+<td>72</td>
+<td>MediumAutumn</td>
+<td style="background-color:#a93000; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#a93000</tt>
+</td></tr>
+<tr>
+<td>73</td>
+<td>Vermillion</td>
+<td style="background-color:#ef3100; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ef3100</tt>
+</td></tr>
+<tr>
+<td>74</td>
+<td>Coral</td>
+<td style="background-color:#ff5834; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff5834</tt>
+</td></tr>
+<tr>
+<td>75</td>
+<td>Orange</td>
+<td style="background-color:#ff7f00; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff7f00</tt>
+</td></tr>
+<tr>
+<td>76</td>
+<td>Peach</td>
+<td style="background-color:#ffa73a; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffa73a</tt>
+</td></tr>
+<tr>
+<td>77</td>
+<td>LightAutumn</td>
+<td style="background-color:#ae7000; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ae7000</tt>
+</td></tr>
+<tr>
+<td>78</td>
+<td>Mustard</td>
+<td style="background-color:#949427; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#949427</tt>
+</td></tr>
+<tr>
+<td>79</td>
+<td>ActualBlack</td>
+<td style="background-color:#000000; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#000000</tt>
+</td></tr>
+<tr>
+<td>80</td>
+<td>MidnightBlue</td>
+<td style="background-color:#191d36; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#191d36</tt>
+</td></tr>
+<tr>
+<td>81</td>
+<td>DarkBlue</td>
+<td style="background-color:#152b3a; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#152b3a</tt>
+</td></tr>
+<tr>
+<td>82</td>
+<td>BlackSands</td>
+<td style="background-color:#302531; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#302531</tt>
+</td></tr>
+<tr>
+<td>83</td>
+<td>LemonLime</td>
+<td style="background-color:#a8ff44; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#a8ff44</tt>
+</td></tr>
+<tr>
+<td>84</td>
+<td>Mint</td>
+<td style="background-color:#38e985; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#38e985</tt>
+</td></tr>
+<tr>
+<td>85</td>
+<td>Jade</td>
+<td style="background-color:#008840; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#008840</tt>
+</td></tr>
+<tr>
+<td>86</td>
+<td>PineGreen</td>
+<td style="background-color:#0f552e; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#0f552e</tt>
+</td></tr>
+<tr>
+<td>87</td>
+<td>SpruceGreen</td>
+<td style="background-color:#005b45; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#005b45</tt>
+</td></tr>
+<tr>
+<td>88</td>
+<td>LeafGreen</td>
+<td style="background-color:#5b9725; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#5b9725</tt>
+</td></tr>
+<tr>
+<td>89</td>
+<td>DarkLavender</td>
+<td style="background-color:#5e275f; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#5e275f</tt>
+</td></tr>
+<tr>
+<td>90</td>
+<td>MediumLavender</td>
+<td style="background-color:#853587; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#853587</tt>
+</td></tr>
+<tr>
+<td>91</td>
+<td>Lavender</td>
+<td style="background-color:#bd77be; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#bd77be</tt>
+</td></tr>
+<tr>
+<td>92</td>
+<td>DarkTeal</td>
+<td style="background-color:#0e404a; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#0e404a</tt>
+</td></tr>
+<tr>
+<td>93</td>
+<td>MediumTeal</td>
+<td style="background-color:#105563; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#105563</tt>
+</td></tr>
+<tr>
+<td>94</td>
+<td>Teal</td>
+<td style="background-color:#14849c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#14849c</tt>
+</td></tr>
+<tr>
+<td>95</td>
+<td>PowderBlue</td>
+<td style="background-color:#82a7ff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#82a7ff</tt>
+</td></tr>
+<tr>
+<td>96</td>
+<td>Glacial</td>
+<td style="background-color:#aceaff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#aceaff</tt>
+</td></tr>
+<tr>
+<td>97</td>
+<td>Cammo</td>
+<td style="background-color:#505118; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#505118</tt>
+</td></tr>
+<tr>
+<td>98</td>
+<td>DryMoss</td>
+<td style="background-color:#766e3f; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#766e3f</tt>
+</td></tr>
+<tr>
+<td>99</td>
+<td>Custard</td>
+<td style="background-color:#c0bd5e; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#c0bd5e</tt>
+</td></tr>
+<tr>
+<td>100</td>
+<td>Cream</td>
+<td style="background-color:#f4ffc0; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#f4ffc0</tt>
+</td></tr>
+<tr>
+<td>201</td>
+<td>Black Dye¹</td>
+<td style="background-color:#1f1f1f; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#1f1f1f</tt>
+</td></tr>
+<tr>
+<td>202</td>
+<td>Blue Dye¹</td>
+<td style="background-color:#0000ff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#0000ff</tt>
+</td></tr>
+<tr>
+<td>203</td>
+<td>Brown Dye¹</td>
+<td style="background-color:#756147; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#756147</tt>
+</td></tr>
+<tr>
+<td>204</td>
+<td>Cyan Dye¹</td>
+<td style="background-color:#00ffff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#00ffff</tt>
+</td></tr>
+<tr>
+<td>205</td>
+<td>Forest Dye¹</td>
+<td style="background-color:#006c00; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#006c00</tt>
+</td></tr>
+<tr>
+<td>206</td>
+<td>Green Dye¹</td>
+<td style="background-color:#00ff00; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#00ff00</tt>
+</td></tr>
+<tr>
+<td>207</td>
+<td>Purple Dye¹</td>
+<td style="background-color:#6c00ba; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#6c00ba</tt>
+</td></tr>
+<tr>
+<td>208</td>
+<td>Orange Dye¹</td>
+<td style="background-color:#ff8800; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff8800</tt>
+</td></tr>
+<tr>
+<td>209</td>
+<td>Parchment Dye¹</td>
+<td style="background-color:#ffffba; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffffba</tt>
+</td></tr>
+<tr>
+<td>210</td>
+<td>Pink Dye¹</td>
+<td style="background-color:#ff7be1; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff7be1</tt>
+</td></tr>
+<tr>
+<td>211</td>
+<td>Unused Purple Dye¹</td>
+<td style="background-color:#7b00e0; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#7b00e0</tt>
+</td></tr>
+<tr>
+<td>212</td>
+<td>Red Dye¹</td>
+<td style="background-color:#ff0000; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff0000</tt>
+</td></tr>
+<tr>
+<td>213</td>
+<td>Royalty Dye¹</td>
+<td style="background-color:#7b00a8; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#7b00a8</tt>
+</td></tr>
+<tr>
+<td>214</td>
+<td>Silver Dye¹</td>
+<td style="background-color:#e0e0e0; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#e0e0e0</tt>
+</td></tr>
+<tr>
+<td>215</td>
+<td>Sky Dye¹</td>
+<td style="background-color:#bad4ff; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#bad4ff</tt>
+</td></tr>
+<tr>
+<td>216</td>
+<td>Tan Dye¹</td>
+<td style="background-color:#ffed82; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffed82</tt>
+</td></tr>
+<tr>
+<td>217</td>
+<td>Tangerine Dye¹</td>
+<td style="background-color:#ad652c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ad652c</tt>
+</td></tr>
+<tr>
+<td>218</td>
+<td>White Dye¹</td>
+<td style="background-color:#fefefe; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#fefefe</tt>
+</td></tr>
+<tr>
+<td>219</td>
+<td>Yellow Dye¹</td>
+<td style="background-color:#ffff00; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ffff00</tt>
+</td></tr>
+<tr>
+<td>220</td>
+<td>Magenta Dye¹</td>
+<td style="background-color:#e71fd9; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#e71fd9</tt>
+</td></tr>
+<tr>
+<td>221</td>
+<td>Brick Dye¹</td>
+<td style="background-color:#94341f; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#94341f</tt>
+</td></tr>
+<tr>
+<td>222</td>
+<td>Cantaloupe Dye¹</td>
+<td style="background-color:#ff9a00; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#ff9a00</tt>
+</td></tr>
+<tr>
+<td>223</td>
+<td>Mud Dye¹</td>
+<td style="background-color:#473b2b; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#473b2b</tt>
+</td></tr>
+<tr>
+<td>224</td>
+<td>Navy Dye¹</td>
+<td style="background-color:#34346c; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#34346c</tt>
+</td></tr>
+<tr>
+<td>225</td>
+<td>Olive Dye¹</td>
+<td style="background-color:#baba59; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#baba59</tt>
+</td></tr>
+<tr>
+<td>226</td>
+<td>Slate Dye¹</td>
+<td style="background-color:#595959; color:#FFFFFF; text-shadow: 1px 1px 4px black, 0 0 1em black, 0 0 0.2em black; text-align:center;"><tt>#595959</tt>
+</td></tr></tbody><tfoot></tfoot></table>
 
 
 </html>
